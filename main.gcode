@@ -1,11 +1,11 @@
 %
 O1001
 G21 G17 G40 G49 G80 G90
-G54
+G54 --midpoint
 T1 M06
 S3000 M03
 G00 G43 H01 Z20.
-M08
+M08 --activate cooling
 G00 X-23. Y-23.
 G00 Z5.
 G01 Z-1. F100.
