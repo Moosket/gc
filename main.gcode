@@ -2,7 +2,7 @@
 O1001
 G21 G17 G40 G49 G80 G90
 G54 --midpoint
-T1 M06 ##change to tool number 1
+T1 M06 ; change to tool number 1
 S3000 M03
 G00 G43 H01 Z20.
 M08 --activate cooling
