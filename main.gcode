@@ -8,16 +8,16 @@ G00 G43 H01 Z20.
 M08 --activate cooling
 G00 X-23. Y-23.
 G00 Z5.
-G01 Z-1. F100.
-G01 X23. Y-23. F300.
-G01 X23. Y23.
-G01 X-23. Y23.
-G01 X-23. Y-23.
-G01 Z-2. F100.
-G01 X23. Y-23. F300.
-G01 X23. Y23.
-G01 X-23. Y23.
-G01 X-23. Y-23.
+G01 Z-1. F100. --linear move
+G01 X23. Y-23. F300. --linear move
+G01 X23. Y23. --linear move
+G01 X-23. Y23. --linear move
+G01 X-23. Y-23. --linear move
+G01 Z-2. F100. --linear move
+G01 X23. Y-23. F300. --linear move
+G01 X23. Y23. --linear move
+G01 X-23. Y23. --linear move
+G01 X-23. Y-23. --linear move
 G00 Z20.
 M09
 M05
