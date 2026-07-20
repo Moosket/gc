@@ -7,7 +7,7 @@ S3000 M03
 G00 G43 H01 Z20.
 M08 ; activate cooling
 G00 X-23. Y-23.
-G00 Z5.
+G00 Z5. ; move the tool as quicly as possible without cutting operations
 G01 Z-1. F100. ; linear move
 G01 X23. Y-23. F300. ; linear move
 G01 X23. Y23. ; linear move
