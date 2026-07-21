@@ -19,7 +19,7 @@ G01 X23. Y23. ; linear move
 G01 X-23. Y23. ; linear move
 G01 X-23. Y-23. ; linear move
 G00 Z20.
-M09
+M09 ; all coolants off
 M05
 G91 G28 Z0
 G90
