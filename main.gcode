@@ -20,7 +20,7 @@ G01 X-23. Y23. ; linear move
 G01 X-23. Y-23. ; linear move
 G00 Z20.
 M09 ; all coolants off
-M05
+M05 ; stop the spindle
 G91 G28 Z0
 G90
 G91 G28 X0 Y0
